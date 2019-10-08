@@ -81,8 +81,6 @@ namespace ConsoleApp1
             double averageZ = timeOfCallArray.Last() / 1000;
             double threadValue = 1 / averageZ;
 
-            //Console.WriteLine(averageZ + " " + threadValue);
-
             incomingCallsProbabaility = new double[maxCallsPerInterval + 1];
             incomingCallsModelProbabaility = new double[maxCallsPerInterval + 1];
             incomingCallsProbabaility_ModeledLambda = new double[maxCallsPerInterval + 1];
