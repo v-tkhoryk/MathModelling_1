@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Linq;
+using System.Windows.Forms;
+using MainForm;
 
 namespace ConsoleApp1
 {
@@ -147,6 +149,8 @@ namespace ConsoleApp1
         public void PrintOneProb(string title, double[] probabilityArray)
         {
             double sum = 0;
+            var test = new Form1();
+            test.richTextBox1.Text += "title";
             Console.Write(title);
             foreach (var item in probabilityArray)
             {

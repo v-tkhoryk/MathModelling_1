@@ -1,0 +1,9 @@
+C:\Users\vtkhoryx\source\repos\ConsoleApp1\MainForm\bin\Debug\MainForm.exe.config
+C:\Users\vtkhoryx\source\repos\ConsoleApp1\MainForm\bin\Debug\MainForm.exe
+C:\Users\vtkhoryx\source\repos\ConsoleApp1\MainForm\bin\Debug\MainForm.pdb
+C:\Users\vtkhoryx\source\repos\ConsoleApp1\MainForm\obj\Debug\MainForm.csprojAssemblyReference.cache
+C:\Users\vtkhoryx\source\repos\ConsoleApp1\MainForm\obj\Debug\MainForm.Properties.Resources.resources
+C:\Users\vtkhoryx\source\repos\ConsoleApp1\MainForm\obj\Debug\MainForm.csproj.GenerateResource.cache
+C:\Users\vtkhoryx\source\repos\ConsoleApp1\MainForm\obj\Debug\MainForm.exe
+C:\Users\vtkhoryx\source\repos\ConsoleApp1\MainForm\obj\Debug\MainForm.pdb
+C:\Users\vtkhoryx\source\repos\ConsoleApp1\MainForm\obj\Debug\MainForm.Form1.resources
