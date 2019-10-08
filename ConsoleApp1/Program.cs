@@ -6,9 +6,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+
             var flow = new FlowAnalyzer();
             flow.Calculate();
-            flow.Print();
             Console.ReadLine();
         }
 
