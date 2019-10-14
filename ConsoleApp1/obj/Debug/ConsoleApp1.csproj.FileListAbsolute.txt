@@ -4,3 +4,10 @@ C:\Users\vtkhoryx\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
 C:\Users\vtkhoryx\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 C:\Users\vtkhoryx\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
 C:\Users\vtkhoryx\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+E:\5 Course\MM\1\MathModelling_1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+E:\5 Course\MM\1\MathModelling_1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+E:\5 Course\MM\1\MathModelling_1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+E:\5 Course\MM\1\MathModelling_1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+E:\5 Course\MM\1\MathModelling_1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+E:\5 Course\MM\1\MathModelling_1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+E:\5 Course\MM\1\MathModelling_1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

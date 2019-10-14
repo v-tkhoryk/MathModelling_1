@@ -1,0 +1,6 @@
+E:\5 Course\MM\1\MathModelling_1\FlowLibrary\bin\Debug\FlowLibrary.dll
+E:\5 Course\MM\1\MathModelling_1\FlowLibrary\bin\Debug\FlowLibrary.pdb
+E:\5 Course\MM\1\MathModelling_1\FlowLibrary\obj\Debug\FlowLibrary.csprojAssemblyReference.cache
+E:\5 Course\MM\1\MathModelling_1\FlowLibrary\obj\Debug\FlowLibrary.csproj.CoreCompileInputs.cache
+E:\5 Course\MM\1\MathModelling_1\FlowLibrary\obj\Debug\FlowLibrary.dll
+E:\5 Course\MM\1\MathModelling_1\FlowLibrary\obj\Debug\FlowLibrary.pdb
