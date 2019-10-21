@@ -1,6 +1,6 @@
 ﻿namespace MainWindow
 {
-    partial class Graph
+    partial class Plot
     {
         /// <summary>
         /// Required designer variable.

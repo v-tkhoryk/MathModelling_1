@@ -1,20 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using ZedGraph;
 using FlowLibrary;
 
 namespace MainWindow
 {
-    public partial class Graph : Form
+    public partial class Plot : Form
     {
-        public Graph()
+        public Plot()
         {
             InitializeComponent();
         }
@@ -26,27 +20,24 @@ namespace MainWindow
             myPane.XAxis.Title.Text = "Calls";
             myPane.YAxis.Title.Text = "Probability";
 
-            PointPairList teamAPairList = new PointPairList();
-            PointPairList teamBPairList = new PointPairList();
-            //int[] teamAData = buildTeamAData();
-            //int[] teamBData = buildTeamBData();
-            for (int i = 0; i < FlowAnalyzer.incomingCallsProbabaility.Length; i++)
-            //for (int i = 0; i < 14; i++)
+            PointPairList probsPairList = new PointPairList();
+            PointPairList modelProbsPairList = new PointPairList();
+            for (int i = 0; i < FlowModel.generalFlow.incomingCallsProbabaility.Length; i++)
             {
-                teamAPairList.Add(i, FlowAnalyzer.incomingCallsProbabaility[i]);
-                teamBPairList.Add(i, FlowAnalyzer.incomingCallsModelProbabaility[i]);
+                probsPairList.Add(i, FlowModel.generalFlow.incomingCallsProbabaility[i]);
+                modelProbsPairList.Add(i, FlowModel.generalFlow.incomingCallsModelProbabaility[i]);
             }
 
             LineItem realProbCurve = myPane.AddCurve("Probability of incoming calls",
-                  teamAPairList, Color.Red, SymbolType.Diamond);
+                  probsPairList, Color.Red, SymbolType.Diamond);
 
             LineItem modelledProbCurve = myPane.AddCurve("Modelled probability",
-                  teamBPairList, Color.Blue, SymbolType.Circle);
+                  modelProbsPairList, Color.Blue, SymbolType.Circle);
 
             zedGraphControl1.AxisChange();
 
             myPane.XAxis.Scale.MajorStep = 1;
-            myPane.XAxis.Scale.Max = teamAPairList.Count;
+            myPane.XAxis.Scale.Max = probsPairList.Count;
             myPane.XAxis.MajorGrid.IsVisible = true;
             myPane.YAxis.MajorGrid.IsVisible = true;
 

@@ -49,25 +49,34 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FlowModel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FlowModel.Designer.cs">
+      <DependentUpon>FlowModel.cs</DependentUpon>
     </Compile>
-    <Compile Include="Graph.cs">
+    <Compile Include="Plot.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Graph.Designer.cs">
-      <DependentUpon>Graph.cs</DependentUpon>
+    <Compile Include="Plot.Designer.cs">
+      <DependentUpon>Plot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IntervalPlot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IntervalPlot.Designer.cs">
+      <DependentUpon>IntervalPlot.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FlowModel.resx">
+      <DependentUpon>FlowModel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Graph.resx">
-      <DependentUpon>Graph.cs</DependentUpon>
+    <EmbeddedResource Include="Plot.resx">
+      <DependentUpon>Plot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IntervalPlot.resx">
+      <DependentUpon>IntervalPlot.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
